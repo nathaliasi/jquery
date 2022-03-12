@@ -1,0 +1,139 @@
+body {
+  background: rgba(231, 9, 9, 0.9);
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #d83417;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  max-width: 350px;
+  margin: 40px 30px 40px 30px;
+  max-height: 800px;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+
+.card .banner {
+  width: 100%;
+}
+
+.card header,
+.card section,
+.card footer {
+  padding: 0px 15px;
+}
+
+.card h3 {
+  margin-top: 15px;
+}
+
+.card header {
+  display: flex;
+  flex-direction: row;
+}
+
+.card .title-card {
+  width: 100%;
+}
+
+.card .title-card small {
+  font-size: 0.9em;
+  color: var(--secondary-text);
+}
+
+.card .title-card .rating {
+  display: flex;
+  align-items: center;
+}
+
+.card .rating .note {
+  margin-left: 5px;
+}
+
+.card .rating .note .high-number {
+  font-size: 1.5em;
+  font-family: "OpenSans-Bold";
+  color: var(--emphasis-text);
+}
+
+.card .rating .note small {
+  color: var(--secondary-text);
+}
+
+.card header .age {
+  width: 20%;
+  max-height: 50px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  color: #ffffff;
+  border: 1px solid var(--secondary-text);
+}
+
+.card .summary {
+  margin-top: 10px;
+}
+
+.card .actors {
+  font-size: 0.85em;
+  color: var(--secondary-text);
+}
+
+.card .actors span {
+  font-family: "OpenSans-Bold";
+  color: #000000;
+}
+
+.card .comments p {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--comment-background);
+}
+
+.card footer .like {
+  padding: 20px 0;
+}
+
+.card footer .like a > * {
+  max-width: 48px;
+  height: 48px;
+  margin-right: 7px;
+}
+
+.class-18 {
+  background-color: #000000;
+}
+
+.class-16 {
+  background-color: #b92424;
+}
+
+.class-14 {
+  background-color: #d1601e;
+}
+
+.class-12 {
+  background-color: #e4e438;
+}
+
+.class-10 {
+  background-color: #273b5a;
+}
+
+.class-0 {
+  background-color: #22d822;
+}
